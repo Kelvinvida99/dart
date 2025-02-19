@@ -2,7 +2,7 @@ void main() {
   
   emitNumber()
     .listen((value) {
-      print('Stream value: $value');
+      print('Stream : $value');
     });
 }
 
